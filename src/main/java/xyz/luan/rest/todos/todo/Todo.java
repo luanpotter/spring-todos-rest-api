@@ -1,4 +1,4 @@
-package com.packt.rest.todos.todo;
+package xyz.luan.rest.todos.todo;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

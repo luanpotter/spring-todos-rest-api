@@ -1,7 +1,7 @@
-package com.packt.rest.todos;
+package xyz.luan.rest.todos;
 
-import com.packt.rest.todos.todo.Todo;
-import com.packt.rest.todos.todo.TodoRepository;
+import xyz.luan.rest.todos.todo.Todo;
+import xyz.luan.rest.todos.todo.TodoRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

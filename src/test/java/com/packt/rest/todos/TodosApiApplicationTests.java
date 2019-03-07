@@ -1,7 +1,7 @@
-package com.packt.rest.todos;
+package xyz.luan.rest.todos;
 
-import com.packt.rest.todos.todo.Todo;
-import com.packt.rest.todos.todo.TodoApi;
+import xyz.luan.rest.todos.todo.Todo;
+import xyz.luan.rest.todos.todo.TodoApi;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

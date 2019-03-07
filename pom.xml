@@ -8,8 +8,8 @@
         <version>2.2.0.BUILD-SNAPSHOT</version>
         <relativePath/>
     </parent>
-    <groupId>com.packt.rest</groupId>
-    <artifactId>todos-api</artifactId>
+    <groupId>xyz.luan.rest</groupId>
+    <artifactId>spring-todos-rest-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>todos-api</name>
     <description>Simple TODO REST Api using Spring</description>
