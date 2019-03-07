@@ -45,7 +45,7 @@ public class TodoApi {
 	}
 
 	@PutMapping("/todos/:id")
-	public Todo createNewTodo(@PathParam("id") Long id, @RequestBody Todo todo) {
+	public Todo updateExistingTodo(@PathParam("id") Long id, @RequestBody Todo todo) {
 		if (repository.findById(id).isEmpty()) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND);
 		}
