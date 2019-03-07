@@ -1,5 +1,7 @@
 # spring-todos-rest-api
 
+[![Build Status](https://travis-ci.org/luanpotter/spring-todos-rest-api.svg?branch=master)](https://travis-ci.org/luanpotter/spring-todos-rest-api)
+
 This is a CRUD REST api for a todo model with two fields: a Long id and a String text (text of the todo).
 
 It uses Spring, including Spring Boot and Spring Data for the JPA implementation. It uses zero xml files for configuration (apart from the pom.xml file, of course, because it's a maven project).
